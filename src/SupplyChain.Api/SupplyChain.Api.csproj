@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Compiled in so the API has no file-system dependency. -->
+    <EmbeddedResource Include="Data\network.json" LogicalName="network.json" />
+  </ItemGroup>
+
+</Project>

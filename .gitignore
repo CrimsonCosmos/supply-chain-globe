@@ -1,0 +1,8 @@
+bin/
+obj/
+node_modules/
+src/SupplyChain.Api/wwwroot/
+publish/
+*.zip
+.vs/
+.DS_Store
