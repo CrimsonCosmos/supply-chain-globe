@@ -1,5 +1,7 @@
 # Supply Chain Globe
 
+**Live demo: https://supply-chain-globe-dg.azurewebsites.net**
+
 An interactive 3-D globe that plans **multimodal freight routes** and shows what they cost in time, money,
 CO₂ and tied-up inventory. It is "Google Maps for logistics": instead of the fastest drive, you get the
 route that minimises **total landed cost** (freight plus the inventory sitting in transit plus the safety
