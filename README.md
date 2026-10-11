@@ -119,7 +119,7 @@ ASPNETCORE_URLS=http://localhost:5080 dotnet run --project src/SupplyChain.Api -
 ## Deploy to Azure
 
 One App Service hosts the API and the UI, so there is no CORS setup. Requires `az login`. This uses the
-Basic B1 tier with Always On (about $13/month); `SKU=F1 ./deploy.sh` deploys for free but cold-starts.
+Free (F1) tier by default, which cold-starts after about 20 minutes idle (the first visit then waits tens of seconds). `SKU=B1 ./deploy.sh` uses Basic B1 with Always On (about $13/month) to avoid that.
 
 ```bash
 ./deploy.sh supply-chain-globe-dg   # app name must be globally unique
